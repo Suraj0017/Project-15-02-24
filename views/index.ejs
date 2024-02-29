@@ -1,0 +1,16 @@
+  <%-include ("./partials/meta.ejs") %>
+
+<body>
+  <%-include ("./partials/navbar.ejs") %>
+
+    <form class="bg-gray-100 ml-[40rem] w-[16rem] mt-[16rem]"action="/register" method="post">
+        
+  <div><input type="text" name="name" class="bg-black text-white font-extrabold mt-3"autocomplete="off" required placeholder="Enter name"></div>
+  <div><input type="text" name="email"class="bg-black text-white font-extrabold mt-3"autocomplete="off" required required placeholder="Enter email"></div>
+  <div><input type="text" name="phone"class="bg-black text-white font-extrabold mt-3"autocomplete="off" required required placeholder="Enter Phone no"></div>
+  <div><input type="text" name="password"class="bg-black text-white font-extrabold mt-3"autocomplete="off" required required placeholder="Enter Password"></div>
+  <div><input type="text" name="confpassword"class="bg-black text-white font-extrabold mt-3"autocomplete="off" required required placeholder="Confrom Password"></div>
+  <button type="submit" class="bg-black text-white font-extrabold mt-3">Submit</button>
+</form>
+</body>
+</html>

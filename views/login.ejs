@@ -1,0 +1,13 @@
+<%-include ("./partials/meta.ejs") %>
+
+<%-include ("./partials/navbar.ejs") %>
+
+
+
+<form class="bg-gray-100 ml-[40rem] w-[16rem] mt-[16rem]"action="/login" method="post">
+        
+    <div><input type="text" name="email" class="bg-black text-white font-extrabold mt-3"autocomplete="off" required></div>
+    <div><input type="password" name="password"class="bg-black text-white font-extrabold mt-3"autocomplete="off" required></div>
+    
+    <button type="submit" class="bg-black text-white font-extrabold mt-3">Login</button>
+  </form>
